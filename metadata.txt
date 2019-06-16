@@ -1,0 +1,40 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Network Toolkit
+qgisMinimumVersion=3.0
+description=该插件集成了网络分析工具。
+version=0.1
+author=Team-For-WebGIS 
+company=WHU 
+email=vacutice@whu.edu.cn
+
+about=目前该插件集成了五种网络分析工具。
+
+tracker=https://github.com/Team-For-WebGIS/Network_Toolkit/issues
+repository=https://github.com/Team-For-WebGIS/Network_Toolkit
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, distance, network, polygon, vector
+
+homepage=https://github.com/Team-For-WebGIS/Network_Toolkit
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
